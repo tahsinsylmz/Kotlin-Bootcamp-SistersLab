@@ -1,0 +1,25 @@
+Kotlin'in Null-Güvenliği Avantajları:
+
+Çöp NPE'lere Son: Kotlin, programlarda yaygın olarak karşılaşılan Null Pointer Exception (NPE) hatasını önler. Bu sayede uygulamaların çökmelerini önler ve daha güvenli bir kod yazmamızı sağlar.
+
+Güvenli ve Sağlam Kodlar: Kotlin, değişkenlerin ve özelliklerin null olabilme durumlarını açıkça işaretlememizi sağlar. Böylece olası null referans hatalarının önüne geçerek daha sağlam ve güvenilir kodlar yazmamıza yardımcı olur.
+
+Java Uyumlu: Kotlin, Java ile sorunsuz bir şekilde entegre olur ve Java kodlarında da Null-Güvenliği'ni uygular. Bu sayede Kotlin projelerinde Java API'lerini kullanırken null ile ilgili hataları minimuma indirir.
+
+Okunabilir ve Kısa Kodlar: Kotlin'in null güvenliği operatörleri olan ?. ve ?: sayesinde kodlar daha okunabilir ve kısa hale gelir. Bu operatörlerle null kontrolleri açıkça belirtilir ve kodların anlaşılması kolaylaşır.
+
+Uyarılarla Daha İyi Hata Tespiti: Kotlin'in derleyicisi, kodlama aşamasında null referanslarla ilgili uyarılar ve öneriler sunar. Böylece olası sorunları erken tespit ederek daha sağlıklı bir kod tabanı elde ederiz.
+
+Kotlin'in Diğer Dillerden Farklı Özellikleri:
+
+Açıkça Belirtilmiş Nullability: Kotlin, değişkenlerin veya özelliklerin nullable olup olmadığını açıkça belirtmemizi gerektirir. Bu sayede kodun anlaşılırlığını artırır ve beklenmedik hataların önüne geçer.
+
+Varsayılan Olarak Non-Nullable: Kotlin'de değişkenler varsayılan olarak non-nullable'dır. Yani açıkça nullable olarak belirtilmedikçe, null olamazlar. Bu yaklaşım daha güvenli kodlama pratiği benimsememize yardımcı olur.
+
+Güvenli Çağrılar ve Elvis Operatörü: Kotlin, nullable tipleri güvenli çağrı (?.) ve elvis (?:) operatörleri ile kolayca ele alabiliriz. Bu operatörler sayesinde null referansları güvenli bir şekilde kontrol eder ve varsayılan değerler belirleyebiliriz.
+
+Platform Tipleri ve Tür Takma Adları: Kotlin, Java ile uyumlu çalışırken platform tipleri ve tür takma adları sayesinde Java API'lerinden gelen değerleri kolayca işleyebilir ve daha açıklayıcı isimlerle türleri kullanabiliriz.
+
+Sonuç:
+
+Kotlin'in Null-Güvenliği, çöp NPE'lere karşı koruma, güvenli kod yazma ve Java ile uyumlu çalışma gibi birçok avantaj sunar. Ayrıca açıkça nullability işaretlemesi ve varsayılan olarak non-nullable olma gibi diğer dillerden farklı özellikleri sayesinde öne çıkar. Kotlin'in Null-Güvenliği'ni kullanarak daha sağlam, güvenli ve anlaşılabilir kodlar yazabiliriz.
