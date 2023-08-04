@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageViewProduct"
+        android:layout_width="226dp"
+        android:layout_height="195dp"
+        android:layout_margin="16dp"
+        android:src="@drawable/indir"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textViewProductName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Ayakkabı"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toEndOf="@id/imageViewProduct"
+        app:layout_constraintTop_toTopOf="@id/imageViewProduct"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp" />
+
+    <!-- Ürün Açıklaması -->
+    <TextView
+        android:id="@+id/textViewProductDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Converse"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        app:layout_constraintStart_toEndOf="@id/imageViewProduct"
+        app:layout_constraintTop_toBottomOf="@id/textViewProductName"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp" />
+
+
+    <TextView
+        android:id="@+id/textViewProductPrice"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="720.00 TL"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toEndOf="@id/imageViewProduct"
+        app:layout_constraintTop_toBottomOf="@id/textViewProductDescription"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp" />
+
+
+    <Button
+        android:id="@+id/buttonBuyNow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Şimdi Satın Al"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/imageViewProduct"
+        app:layout_constraintTop_toBottomOf="@id/textViewProductPrice"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
