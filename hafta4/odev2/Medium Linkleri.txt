@@ -1,0 +1,10 @@
+
+
+Kotlin'de Dizilerle Veri Saklama ve İşlemler medium yazısı linki:
+
+https://medium.com/@a.tahsin.soylemez/kotlin-kalıtım-ve-miras-alma-b5bc422bbd00
+
+
+Kotlin'de Kalıtım ve Miras Bırakma
+
+https://medium.com/@a.tahsin.soylemez/kotlin-dizileri-ile-veri-saklama-i̇şlemleri-b131cb8243b0
