@@ -1,0 +1,1 @@
+https://medium.com/@a.tahsin.soylemez/verileri-listeleme-ve-görüntüleme-recyclerview-ve-adapter-tasarımı-841868a1db2d
